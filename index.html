@@ -11,6 +11,10 @@
     <!-- Using Phosphor Icons for a clean, modern look -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+    <link rel="apple-touch-icon" href="icon.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#006400">
 </head>
 <body>
     <nav class="navbar">
@@ -110,10 +114,57 @@
         <section class="job-listings">
             <div class="listings-header">
                 <h2>Latest Jobs</h2>
-                <span class="job-count">Showing 143 available jobs</span>
+                <span class="job-count">Showing active job announcements</span>
             </div>
 
             <div class="job-cards-container">
+                <!-- NEW: Job Card - FPSC Phase 3 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="company-logo bg-blue">
+                            <i class="ph ph-file-text"></i>
+                        </div>
+                        <div class="job-meta">
+                            <h3>FPSC Ad No. 03/2026 (500+ Posts)</h3>
+                            <span class="department">Federal Public Service Commission (FPSC)</span>
+                        </div>
+                        <button class="btn-save" aria-label="Save Job"><i class="ph ph-bookmark-simple"></i></button>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item"><i class="ph ph-map-pin"></i> Federal / All Pakistan</div>
+                        <div class="detail-item"><i class="ph ph-clock"></i> Full-time (BS-16 & 17)</div>
+                        <div class="detail-item"><i class="ph ph-graduation-cap"></i> Graduation / Masters</div>
+                    </div>
+                    <p class="job-description">FPSC Consolidated Advertisement No. 03/2026 (Phase-3). Includes Secondary School Teachers (BS-17), Charge Nurses (BS-16), Medical Officers, and FIA Superintendents. Deadline: August 31, 2026.</p>
+                    <div class="job-card-footer">
+                        <span class="posted-time">New (Aug 2026)</span>
+                        <a href="https://fpsc.gov.pk/" target="_blank" class="btn-secondary" style="display:inline-block; text-align:center;">Apply Now</a>
+                    </div>
+                </div>
+
+                <!-- NEW: Job Card - PPSC Ad 08 -->
+                <div class="job-card">
+                    <div class="job-card-header">
+                        <div class="company-logo bg-green">
+                            <i class="ph ph-file-text"></i>
+                        </div>
+                        <div class="job-meta">
+                            <h3>PPSC Ad No. 08/2026</h3>
+                            <span class="department">Punjab Public Service Commission (PPSC)</span>
+                        </div>
+                        <button class="btn-save" aria-label="Save Job"><i class="ph ph-bookmark-simple"></i></button>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item"><i class="ph ph-map-pin"></i> Punjab</div>
+                        <div class="detail-item"><i class="ph ph-clock"></i> Full-time (BS-11 to 18)</div>
+                        <div class="detail-item"><i class="ph ph-briefcase"></i> Multiple Departments</div>
+                    </div>
+                    <p class="job-description">Latest PPSC recruitment drive for Food Authority, Agriculture, Transport, and Livestock departments. Includes Water Management Officers and Sub Inspectors. Deadline: September 3, 2026.</p>
+                    <div class="job-card-footer">
+                        <span class="posted-time">New (Aug 2026)</span>
+                        <a href="https://www.ppsc.gop.pk/" target="_blank" class="btn-secondary" style="display:inline-block; text-align:center;">Apply Now</a>
+                    </div>
+                </div>
                 <!-- Job Card 1 -->
                 <div class="job-card">
                     <div class="job-card-header">
@@ -233,16 +284,6 @@
                         <a href="https://www.ppsc.gop.pk/" target="_blank" class="btn-secondary" style="display:inline-block; text-align:center;">Apply Now</a>
                     </div>
                 </div>
-            </div>
-            
-            <div class="pagination">
-                <button class="btn-page disabled"><i class="ph ph-caret-left"></i></button>
-                <button class="btn-page active">1</button>
-                <button class="btn-page">2</button>
-                <button class="btn-page">3</button>
-                <span class="dots">...</span>
-                <button class="btn-page">10</button>
-                <button class="btn-page"><i class="ph ph-caret-right"></i></button>
             </div>
         </section>
     </main>
