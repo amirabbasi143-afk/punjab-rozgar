@@ -1,0 +1,15 @@
+{
+  "name": "Punjab Rozgar",
+  "short_name": "Rozgar",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#006400",
+  "theme_color": "#006400",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
