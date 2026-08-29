@@ -1,10 +1,10 @@
 /* Base Styles & Variables */
 :root {
-    --color-primary: #0A2540; /* Deep Blue */
-    --color-primary-light: #1E3A8A;
-    --color-accent: #0066FF; /* Bright Blue */
-    --color-accent-hover: #0052CC;
-    --color-bg: #F8FAFC;
+    --color-primary: #047857; /* Emerald Green */
+    --color-primary-light: #10B981; /* Lighter Emerald */
+    --color-accent: #059669; /* Emerald Accent */
+    --color-accent-hover: #047857;
+    --color-bg: #F0FDF4; /* Very light green tint for background */
     --color-surface: #FFFFFF;
     --color-text-main: #0F172A;
     --color-text-muted: #64748B;
