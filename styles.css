@@ -57,7 +57,7 @@ button, input {
 
 /* Typography */
 h1, h2, h3, h4 {
-    color: var(--color-primary);
+    color: var(--color-text-main);
     font-weight: 700;
     line-height: 1.2;
 }
@@ -168,25 +168,26 @@ h3 { font-size: 1.25rem; }
 
 /* Hero Section */
 .hero {
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
     padding: 100px 0;
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .hero h1 {
-    color: white;
+    color: var(--color-text-main);
     margin-bottom: 24px;
 }
 
 .hero .highlight {
-    color: #38BDF8; /* Light blue accent for dark bg */
+    color: var(--color-primary); /* Use primary for highlight instead of light blue */
 }
 
 .hero p {
     font-size: 1.125rem;
-    color: #94A3B8;
+    color: var(--color-text-muted);
     max-width: 600px;
     margin-bottom: 48px;
 }
@@ -244,19 +245,20 @@ h3 { font-size: 1.25rem; }
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
-    color: #94A3B8;
+    color: var(--color-text-muted);
     font-size: 0.875rem;
 }
 
 .tag {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--color-border);
     padding: 4px 12px;
     border-radius: var(--radius-full);
-    color: white;
+    color: var(--color-text-main);
 }
 
 .tag:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: var(--color-primary);
+    color: white;
 }
 
 /* Main Layout */
@@ -532,9 +534,10 @@ h3 { font-size: 1.25rem; }
 
 /* Footer */
 .footer {
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
     padding-top: 80px;
+    border-top: 1px solid var(--color-border);
 }
 
 .footer-content {
@@ -545,17 +548,17 @@ h3 { font-size: 1.25rem; }
 }
 
 .footer-brand p {
-    color: #94A3B8;
+    color: var(--color-text-muted);
     margin-top: 16px;
     max-width: 300px;
 }
 
 .footer-brand .logo {
-    color: white;
+    color: var(--color-primary);
 }
 
 .footer-brand .logo i {
-    color: #38BDF8;
+    color: var(--color-accent);
 }
 
 .footer-links {
@@ -565,26 +568,26 @@ h3 { font-size: 1.25rem; }
 }
 
 .link-group h4 {
-    color: white;
+    color: var(--color-text-main);
     margin-bottom: 24px;
     font-size: 1.1rem;
 }
 
 .link-group a {
     display: block;
-    color: #94A3B8;
+    color: var(--color-text-muted);
     margin-bottom: 12px;
 }
 
 .link-group a:hover {
-    color: white;
+    color: var(--color-primary);
     padding-left: 4px;
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--color-border);
     padding: 24px 24px;
-    color: #64748B;
+    color: var(--color-text-muted);
     font-size: 0.9rem;
     text-align: center;
 }
