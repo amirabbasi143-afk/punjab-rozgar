@@ -656,3 +656,13 @@ h3 { font-size: 1.25rem; }
         grid-template-columns: 1fr;
     }
 }
+
+ . e x p i r e d - c a r d   { 
+         o p a c i t y :   0 . 6 5 ; 
+         b a c k g r o u n d - c o l o r :   # F 8 F A F C ; 
+ } 
+ . e x p i r e d - c a r d   . c o m p a n y - l o g o   { 
+         f i l t e r :   g r a y s c a l e ( 1 0 0 % ) ; 
+ } 
+  
+ 
