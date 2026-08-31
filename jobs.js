@@ -1,5 +1,29 @@
 const jobsData = [
   {
+    title: 'Management Trainee Officers (MTOs) & Managers',
+    department: 'National Insurance Company Limited (NICL)',
+    location: 'Karachi / Pakistan',
+    type: 'Full-time',
+    qualification: 'Master\\'s / Bachelor\\'s (16 yrs)',
+    description: 'NICL is hiring 15 MTOs and various Management positions including HR, Audit, Takaful, Admin. Apply via NJP / OTS portal.',
+    deadline: '2026-09-11',
+    link: 'https://njp.gov.pk/',
+    logo_class: 'bg-blue',
+    icon: 'ph-briefcase'
+  },
+  {
+    title: 'Various Vacancies (IT, Ops, Finance, Admin)',
+    department: 'Sindh Social Protection Authority (via NTS)',
+    location: 'Sindh',
+    type: 'Contract',
+    qualification: 'Primary to Master\\'s',
+    description: '149 vacancies under World Bank-assisted project \\'Strengthening Social Protection Delivery System in Sindh\\'. Roles in IT, operations, finance, admin, etc.',
+    deadline: '2026-09-10',
+    link: 'https://www.nts.org.pk/',
+    logo_class: 'bg-green',
+    icon: 'ph-users'
+  },
+  {
     title: 'Professor, Assistant Professor & Lecturer',
     department: 'Kohsar University, Murree',
     location: 'Murree',
