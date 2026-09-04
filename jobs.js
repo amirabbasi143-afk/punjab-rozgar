@@ -1,5 +1,65 @@
 const jobsData = [
   {
+    title: "Deputy Director (Audit, IT, Software Dev)",
+    department: "Punjab Education Foundation (PEF via CTS)",
+    location: "Lahore, Punjab",
+    type: "Full-time",
+    qualification: "Master's / BS in CS / IT / CA / ACCA",
+    description: "Punjab Education Foundation (PEF) invites applications for Deputy Director positions in Audit, IT, and Software Development. Apply online via CTS.",
+    deadline: "2026-09-17",
+    link: "https://pef.edu.pk/",
+    logo_class: "bg-green",
+    icon: "ph-buildings"
+  },
+  {
+    title: "Senior Assistant (BS-15) & Sub Assistant (BS-11)",
+    department: "Election Commission of Pakistan (ECP)",
+    location: "Islamabad / All Pakistan",
+    type: "Full-time (BS-15 / BS-11)",
+    qualification: "Graduation / Intermediate",
+    description: "ECP invites online applications for Senior Assistant (BS-15) and Sub Assistant (BS-11) through ECP Online Recruitment System (ORS).",
+    deadline: "2026-09-17",
+    link: "https://jobs.ecp.gov.pk/",
+    logo_class: "bg-blue",
+    icon: "ph-shield-check"
+  },
+  {
+    title: "Assistant Director & Senior / Junior Assistants",
+    department: "National Testing Service (NTS)",
+    location: "Islamabad (Head Office)",
+    type: "Full-time",
+    qualification: "Master's / Bachelor's",
+    description: "Career opportunities at NTS Head Office Islamabad for Assistant Director, Senior Assistant, and Junior Assistant. Apply online via NTS official website.",
+    deadline: "2026-09-16",
+    link: "https://www.nts.org.pk/",
+    logo_class: "bg-purple",
+    icon: "ph-users"
+  },
+  {
+    title: "Digital Banking Officer, Teller & Relationship Manager",
+    department: "National Bank of Pakistan (NBP)",
+    location: "Across Pakistan",
+    type: "Full-time",
+    qualification: "Graduation / Master's (Commerce / IT / Business)",
+    description: "National Bank of Pakistan (NBP) is hiring dynamic candidates for Digital Banking Officers, Tellers, Processing Officers, and Branch Managers.",
+    deadline: "2026-09-18",
+    link: "https://www.nbp.com.pk/",
+    logo_class: "bg-green",
+    icon: "ph-bank"
+  },
+  {
+    title: "Teaching & Non-Teaching Posts (35+ Vacancies)",
+    department: "University of Engineering & Technology (UET) Lahore",
+    location: "Lahore",
+    type: "Full-time",
+    qualification: "Ph.D / MS / Relevant Degree",
+    description: "UET Lahore invites applications for multiple faculty and administrative vacancies across university faculties and departments.",
+    deadline: "2026-09-14",
+    link: "https://uet.edu.pk/",
+    logo_class: "bg-purple",
+    icon: "ph-student"
+  },
+  {
     title: "Management Trainee Officers (MTOs) & Managers",
     department: "National Insurance Company Limited (NICL)",
     location: "Karachi / Pakistan",
